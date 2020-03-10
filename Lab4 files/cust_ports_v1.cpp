@@ -58,10 +58,10 @@ void output_info(ofstream& fout, Customer* data)
 	 cout <<"MIDDLE   NAME: "  << data[0].mname << endl;
 	 cout <<"TAX_ID NUMBER: "  << data[0].tax_id << endl;
 	 cout <<"PHONE  NUMBER: "  << data[0].phone_num << endl;
-	 cout <<"Num.    Accts: "  << "1" << endl;    //Pulling random data, need to change
+	 cout <<"Num.    Accts: "  << "2" << endl;    //Pulling random data, need to change
 	 cout << endl;
 	
-	 cout <<"Acct Num: " << "1"
+	 cout <<"Acct Num: " << "2"
 	      <<"  Acct ID: "  << data[0].accounts[0].acct_id  //formatting needs to be changed
 	      <<"  Balance: "  << data[0].accounts[0].balance 
 	      <<"  Rate: "  << data[0].accounts[0].growth_rate
